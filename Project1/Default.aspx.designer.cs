@@ -17,8 +17,10 @@ namespace Project1 {
 		
 		protected System.Web.UI.HtmlControls.HtmlForm form1;
 		
-		protected System.Web.UI.WebControls.TextBox text2;
+		protected System.Web.UI.WebControls.TextBox txtName;
 		
-		protected System.Web.UI.WebControls.DropDownList GreetList;
+		protected System.Web.UI.WebControls.RequiredFieldValidator reqName;
+		
+		protected System.Web.UI.WebControls.Button btnSubmitForm;
 	}
 }

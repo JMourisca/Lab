@@ -21,14 +21,12 @@
 	    	</div>
 	    	<div class="span10">
 	      		<!--Body content-->
-	      		<form id="form1" runat="server">
-					<asp:TextBox runat="server" id="text2" />
-					
-					<asp:DropDownList runat="server" id="GreetList" autopostback="true" onselectedindexchanged="GreetList_SelectedIndexChanged">
-					    <asp:ListItem value="no one">No one</asp:ListItem>
-					    <asp:ListItem value="world">World</asp:ListItem>
-					    <asp:ListItem value="universe">Universe</asp:ListItem>
-					</asp:DropDownList>
+	      		<form id="form1" runat="server" class="form">
+				    <label for="txtName">Your name:</label>
+				    <asp:TextBox runat="server" id="txtName" />
+				    <asp:RequiredFieldValidator runat="server" id="reqName" controltovalidate="txtName" errormessage="Please enter your name!" />
+				    <br /><br />
+				    <asp:Button class="btn btn-success" runat="server" id="btnSubmitForm" text="Ok" />
 				</form>
 	    	</div>
 	  	</div>
