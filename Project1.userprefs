@@ -1,8 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Project1/Default.aspx">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Project1/Default.aspx.cs">
     <Files>
-      <File FileName="Project1/Default.aspx" Line="8" Column="4" />
+      <File FileName="Project1/Default.aspx" Line="29" Column="118" />
+      <File FileName="Project1/Default.aspx.cs" Line="23" Column="4" />
+      <File FileName="Project1/UserInfoBoxControl.ascx" Line="1" Column="106" />
+      <File FileName="Project1/UserInfoBoxControl.ascx.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

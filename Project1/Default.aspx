@@ -26,7 +26,7 @@
 				    <asp:TextBox runat="server" id="txtName" />
 				    <asp:RequiredFieldValidator runat="server" id="reqName" controltovalidate="txtName" errormessage="Please enter your name!" />
 				    <br /><br />
-				    <asp:Button class="btn btn-success" runat="server" id="btnSubmitForm" text="Ok" />
+				    <asp:Button class="btn btn-success" runat="server" id="btnSubmitForm" text="Ok" onclick="btnSubmitForm_Click" />
 				</form>
 	    	</div>
 	  	</div>
